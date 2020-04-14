@@ -1,0 +1,45 @@
+Techniques,# of nodes,# iteration,Average node coverage(%),Optimal node coverage(%),Optimal Value
+Genetic Algorithm,10,200,59,60,188
+Hill Climbing with random walk,10,,42,60,188
+Simulated Annealing,10,,58,60,188
+Tabu Search,10,,42,60,188
+Genetic Algorithm,20,200,49,50,499
+Hill Climbing with random walk,20,,42,45,668
+Simulated Annealing,20,,49,50,665
+Tabu Search,20,,39,45,668
+Genetic Algorithm,30,,46,46,1335
+Hill Climbing with random walk,30,,43,43,1487
+Simulated Annealing,30,,43,46,1353
+Tabu Search,30,,43,50,1485
+Genetic Algorithm,50,,45,46,3749
+Hill Climbing with random walk,50,,50,50,4538
+Simulated Annealing,50,,57,56,4120
+Tabu Search,50,,46,52,4491
+Genetic Algorithm,75,,45,46,3749
+Hill Climbing with random walk,75,,50,56,4538
+Simulated Annealing,75,,57,56,4120
+Tabu Search,75,,46,52,4491
+Genetic Algorithm,100,,56,57,16862
+Hill Climbing with random walk,100,,56,59,17752
+Simulated Annealing,100,,57,57,14590
+Tabu Search,100,,46,55,17443
+Genetic Algorithm,120,,52,54,25595
+Hill Climbing with random walk,120,,51,51,23361
+Simulated Annealing,120,,56,56,23361
+Tabu Search,120,,48,55,27470
+Genetic Algorithm,150,,57,59,37076
+Hill Climbing with random walk,150,,55,56,38254
+Simulated Annealing,150,,57,57,30602
+Tabu Search,150,,48,55,39162
+Genetic Algorithm,175,,57,59,51358
+Hill Climbing with random walk,175,,50,50,42427
+Simulated Annealing,175,,54,54,42427
+Tabu Search,175,,48,56,56346
+Genetic Algorithm,200,,58,62,69830
+Hill Climbing with random walk,200,,51,51,60551
+Simulated Annealing,200,,59,60,60551
+Tabu Search,200,,52,56,74898
+Genetic Algorithm,225,,58,61,92831
+Hill Climbing with random walk,225,,51,51,73525
+Simulated Annealing,225,,54,54,73525
+Tabu Search,225,,52,56,98883

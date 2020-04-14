@@ -1,0 +1,49 @@
+Techniques,# of nodes,#iteration,Average node coverage(%),Optimal node coverage(%),Optimal value
+Genetic Algorithm,10,200,59%,60%,174
+Hill Climbing with random walk,10,200,47%,60%,200
+Simulated Annealing,10,200,58%,60%,200
+Tabu Search,10,200,40%,60%,200
+Genetic Algorithm,20,200,45%,45%,601
+Hill Climbing with random walk,20,200,39%,45%,719
+Simulated Annealing,20,200,45%,45%,651
+Tabu Search,20,200,38%,45%,719
+Genetic Algorithm,30,200,46%,46%,1482
+Hill Climbing with random walk,30,200,45%,46%,1633
+Simulated Annealing,30,200,49%,53%,1521
+Tabu Search,30,200,43%,46%,1594
+Genetic Algorithm,50,200,49%,50%,4024
+Hill Climbing with random walk,50,200,52%,56%,4741
+Simulated Annealing,50,200,55%,56%,4372
+Tabu Search,50,200,46%,52%,4590
+Genetic Algorithm,75,200,57%,60%,9145
+Hill Climbing with random walk,75,200,50%,52%,9673
+Simulated Annealing,75,200,49%,49%,8199
+Tabu Search,75,200,45%,52%,9671
+Genetic Algorithm,100,200,57%,59%,15278
+Hill Climbing with random walk,100,200,55%,57%,17802
+Simulated Annealing,100,200,59%,60%,15485
+Tabu Search,100,200,47%,54%,17607
+Genetic Algorithm,120,200,54%,57%,25843
+Hill Climbing with random walk,120,200,55%,57%,27612
+Simulated Annealing,120,200,59%,60%,23092
+Tabu Search,120,200,47%,54%,27762
+Genetic Algorithm,150,200,57%,60%,36431
+Hill Climbing with random walk,150,200,55%,56%,36276
+Simulated Annealing,150,200,57%,57%,32337
+Tabu Search,150,200,50%,56%,39416
+Genetic Algorithm,175,200,58%,62%,55554
+Hill Climbing with random walk,175,200,57%,58%,56893
+Simulated Annealing,175,200,51%,51%,39384
+Tabu Search,175,200,48%,55%,56490
+Genetic Algorithm,200,200,59%,63%,71744
+Hill Climbing with random walk,200,200,57%,59%,75553
+Simulated Annealing,200,200,58%,58%,58043
+Tabu Search,200,200,50%,55%,74781
+Genetic Algorithm,225,200,58%,60%,95035
+Hill Climbing with random walk,225,200,58%,60%,99918
+Simulated Annealing,225,200,55%,55%,75710
+Tabu Search,225,200,51%,56%,99000
+Genetic Algorithm,225,200,58%,60%,95035
+Hill Climbing with random walk,225,200,58%,60%,99918
+Simulated Annealing,225,200,55%,55%,75710
+Tabu Search,225,200,51%,56%,99000
