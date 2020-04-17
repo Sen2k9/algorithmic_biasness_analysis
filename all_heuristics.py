@@ -1,9 +1,5 @@
 
 
-# ------------------------------------------------------------------------------
-
-# Student name:
-# Date:
 
 # need some python libraries
 import copy
@@ -304,13 +300,7 @@ def taboo_search(initial_prop_of_items, taboo_tenure,
     print("Average Node coverage : {}%".format(int(coverage / best_count * 100)))
     print("\n")
 
-    # print("Final best", x_super, "\n",
-    #       "Solutions checed", solutionsChecked,
-    #       "Value:", f_best[0],
-    #       "Weight:", f_best[1],
-    #       "Highest value found:", f_super_best[0],
-    #       "Best Solution:", x_super)
-    # print("\n\n\n")
+
 
 
 def run(number, v, w, threshold,itr):
@@ -319,30 +309,10 @@ def run(number, v, w, threshold,itr):
     global weights
     n = number
 
-    # to setup a random number generator, we will specify a "seed" value
-    # need this for the random number generation -- do not change
-    # seed = 5113
-    # myPRNG = Random(seed)
-    
-# to get a random number between 0 and 1, use this:             myPRNG.random()
-# to get a random number between lwrBnd and upprBnd, use this:  myPRNG.uniform(lwrBnd,upprBnd)
-# to get a random integer between lwrBnd and upprBnd, use this: myPRNG.randint(lwrBnd,upprBnd)
-
-# number of elements in a solution
-
-
-# create an "instance" for the knapsack problem
-    
-    # for i in range(0, n):
-    #     #value.append(myPRNG.uniform(10, 100))
-    #     value.append(myPRNG.randint(10, 5*n))
 
     value = v
 
-    
-    # for i in range(0, n):
-    #     #weights.append(myPRNG.uniform(5, 20))
-    #     weights.append(myPRNG.randint(1, 15))
+
 
     weights = w
 
@@ -353,18 +323,6 @@ def run(number, v, w, threshold,itr):
     item_number = np.arange(1, n + 1)
 
 
-    # Sample Input Visualization
-
-    # print('The list is as follows:')
-    # print('Item No.   Weight   Value')
-    # for i in range(item_number.shape[0]):
-    #     print('{0}          {1}         {2}\n'.format(
-    #         item_number[i], weights[i], value[i]))
-
-    #print("values : {}".format(value))
-    #print("weights : {}".format(weights))
-
-    # change anything you like below this line ------------------------------------
     global solutionsChecked
 
     # monitor the number of solutions evaluated

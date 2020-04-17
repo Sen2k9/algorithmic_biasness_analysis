@@ -1,9 +1,5 @@
 
 
-# ------------------------------------------------------------------------------
-
-# Student name:
-# Date:
 
 # need some python libraries
 import copy
@@ -338,30 +334,12 @@ def run(number, v, w, threshold, itr, node):
     global n
     n = number
 
-    # to setup a random number generator, we will specify a "seed" value
-    # need this for the random number generation -- do not change
-    # seed = 5113
-    # myPRNG = Random(seed)
 
-# to get a random number between 0 and 1, use this:             myPRNG.random()
-# to get a random number between lwrBnd and upprBnd, use this:  myPRNG.uniform(lwrBnd,upprBnd)
-# to get a random integer between lwrBnd and upprBnd, use this: myPRNG.randint(lwrBnd,upprBnd)
-
-# number of elements in a solution
-
-
-# create an "instance" for the knapsack problem
-
-    # for i in range(0, n):
-    #     #value.append(myPRNG.uniform(10, 100))
-    #     value.append(myPRNG.randint(10, 5*n))
 
     global value
     value = v
 
-    # for i in range(0, n):
-    #     #weights.append(myPRNG.uniform(5, 20))
-    #     weights.append(myPRNG.randint(1, 15))
+
 
     global weights
     weights = w
@@ -373,18 +351,7 @@ def run(number, v, w, threshold, itr, node):
 
     item_number = np.arange(1, n + 1)
 
-    # Sample Input Visualization
 
-    # print('The list is as follows:')
-    # print('Item No.   Weight   Value')
-    # for i in range(item_number.shape[0]):
-    #     print('{0}          {1}         {2}\n'.format(
-    #         item_number[i], weights[i], value[i]))
-
-    #print("values : {}".format(value))
-    #print("weights : {}".format(weights))
-
-    # change anything you like below this line ------------------------------------
     global solutionsChecked
 
     # monitor the number of solutions evaluated
